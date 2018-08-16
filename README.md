@@ -1,20 +1,6 @@
 # Overview
 A web based terminal for EC2 instances that does not require SSH or any other inbound connections to the instaces. Instead it uses the AWS Systems Manager (SSM) API to run commands (bash or powershell).
 
-[Try it here](https://awsvirtualbastion.asecure.cloud)
-
-
-**Run commands on multiple instances at once:**
-
-![Run commands on multiple instances](/screenshots/multi-select.png) 
-
-**Support for powershell:**
-
-![Run Powershell commands](/screenshots/powershell.png)
-
-**Keeps track of current directory:**
-![Keep track of directory](/screenshots/dir-state.png)
-
 # Key Features:
 
  1. Secure interactive command-line shell in the browser without exposing any ports on the instance.
@@ -54,9 +40,6 @@ More details can be found at:
 https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-access.html
 
 # To use
-Download index.html and client.min.js, both located under /src. It can be run locally or hosted on a webserver (or S3 bucket).
-
-# Compiling from source
-If changes are made to the source code, then 'npm run prod_build' will recompile from source. 
+Download index.html and client.min.js. It can be run locally or hosted on a webserver (or S3 bucket).
 
 
